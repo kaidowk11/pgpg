@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle pgpg",
+        "command": "pgpg:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pgpg",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "pgpg:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
